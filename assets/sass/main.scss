@@ -1,0 +1,44 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "reset";
+
+$white: #fff;
+$darkBlue: #3A4793;
+$lightBlue: #25B3EC;
+$lightPurple: #9787EE;
+$yellow: #FFBF3E;
+
+*, h1,h2,h3,h4,h5,h6,p,span,div{
+  font-family: 'Roboto';
+  box-sizing: border-box;
+  color: white;
+}
+
+html, body {
+  background: #EDEDED;
+  height: 100%;
+}
+
+
+
+
+
+
+
+.btn {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 25px;
+  &.lightBlue{
+    font-size: 25px;
+    background: $lightBlue;
+  }
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font/fontawesome-webfont.eot');
+}
+@import "all-tasks";
+@import "home";
